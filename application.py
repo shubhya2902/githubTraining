@@ -460,6 +460,8 @@ def bill():
     
 # by entering order no we can get data from database available at that order no
 
+# we have to make some changes in block
+
 
     def receive():
         mysqldb = mysql.connector.connect(host="localhost", user="root", password="", database="cafe")
