@@ -233,6 +233,9 @@ def main():
             l = ["Mexican nachos", "American nachos"]
             cb = Combobox(root, values=l, font=("aerial", 13, "bold"))
             cb.place(x=380, y=350)
+           
+        
+# insert price of the item in price box when it click on item in listbox
 
 
     def insert_price(event):
@@ -410,6 +413,9 @@ def main():
     b3.place(x=550,y=650)
     b4 = Button(root,text="PRINT BILL", bg="green",font=("broadway", 14, "bold"),command=bill)
     b4.place(x=1140,y=650)
+    
+    
+# display all selected content
 
 
     global txtReceipt
@@ -425,6 +431,9 @@ def main():
 
 
     root.mainloop()
+    
+    
+# bill page
 
 
 def bill():
@@ -447,6 +456,9 @@ def bill():
 
     global orno
     orno = e4.get()
+    
+    
+# by entering order no we can get data from database available at that order no
 
 
     def receive():
@@ -477,6 +489,9 @@ def bill():
         Listbox.place(x=20, y=200)
 
     final.mainloop()
+    
+    
+# for changes windows
 
 def abc(x):
     if x == 1:
